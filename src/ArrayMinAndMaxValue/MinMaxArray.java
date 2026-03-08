@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MinMaxArray {
 
-    public static int MinAndMaxArray(int[] arr, int ch){
+    public static int minAndMaxArray(int[] arr, int ch){
 
         int n = arr.length;
         int temp = arr[0];
@@ -50,7 +50,7 @@ public class MinMaxArray {
         Scanner scan = new Scanner(System.in);
         int ch = scan.nextInt();
 
-        int res = MinAndMaxArray(arr, ch);
+        int res = minAndMaxArray(arr, ch);
 
         System.out.println(res);
 

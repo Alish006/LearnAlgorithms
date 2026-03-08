@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
 
-    public static int[] BubbleSortAlgorithm(int[] array){
+    public static int[] bubbleSortAlgorithm(int[] array){
         // length of the array
         int n = array.length;
 
@@ -29,11 +29,11 @@ public class BubbleSort {
 
         System.out.println("Bubble Sort Algorithm");
 
-        int[] unSortedArray = new int[]{4, 76, 5, 8, 54, 6, 100, 32};
+        int[] unSortedArray = new int[]{3, 6, 4, 8, 1, 0};
 
         System.out.println("Unsorted array: " + Arrays.toString(unSortedArray));
 
-        int[] res = BubbleSortAlgorithm(unSortedArray);
+        int[] res = bubbleSortAlgorithm(unSortedArray);
 
         System.out.println("Sorted array: " + Arrays.toString(res));
 

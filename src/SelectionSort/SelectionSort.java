@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
 
-    public static int[] SelectionSortAlgorithm(int[] arr){
+    public static int[] selectionSortAlgorithm(int[] arr){
 
         // length of the array
         int n = arr.length;
@@ -41,7 +41,7 @@ public class SelectionSort {
 
         System.out.println("Unsorted array: " + Arrays.toString(unSortedArray));
 
-        int[] res = SelectionSortAlgorithm(unSortedArray);
+        int[] res = selectionSortAlgorithm(unSortedArray);
 
         System.out.println("Sorted array: " + Arrays.toString(res));
     }
