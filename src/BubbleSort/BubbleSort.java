@@ -9,7 +9,7 @@ public class BubbleSort {
 
         // implementation. Time complexity: O(n^2) -> worst case
         for(int i = 0; i < n - 1; i++){
-            for(int j  = 0; j < n - i - 1; j++){
+            for(int j = 0; j < n - i - 1; j++){
                 // checking
                 if(array[j] > array[j + 1]){
                     // swapping
